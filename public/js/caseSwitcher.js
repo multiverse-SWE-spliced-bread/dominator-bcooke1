@@ -7,14 +7,12 @@ loudbtn.addEventListener('click', makeloud)
 sarcbtn.addEventListener('click', makesarc)
 
 function makequiet (e) {
-    console.log(e)
     const p = document.getElementById("patrick")
     const text = p.innerText
     p.innerText = text.toLocaleLowerCase()
 }
 
 function makeloud (e) {
-    console.log(e)
     const p = document.getElementById("patrick")
     const text = p.innerText
     p.innerText = text.toLocaleUpperCase()
@@ -22,7 +20,6 @@ function makeloud (e) {
 }
 
 function makesarc (e) {
-    console.log(e)
     const p = document.getElementById("patrick")
     let txt = p.innerText
     let sarc = ''
